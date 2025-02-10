@@ -10,6 +10,38 @@ const Projects = () => {
           <div class="project-number project-number-right">01</div>
           <div class="project-content project-content-left">
             <div class="project-skills-container">
+              <Icon icon="devicon:nodejs-wordmark" class="project-skill" />
+              <Icon icon="devicon:tailwindcss" class="project-skill" />
+              <Icon icon="devicon:redux" class="project-skill" />
+              <Icon icon="skill-icons:css" class="project-skill" />
+              <Icon icon="skill-icons:javascript" class="project-skill" />
+              <Icon icon="devicon:react-wordmark" class="project-skill" />
+              <Icon icon="devicon:html5" class="project-skill" />
+            </div>
+            <h2 class="project-heading">Campus Connect</h2>
+            <p class="project-sub-heading">
+              Social media web app for college students and professors.
+            </p>
+            <div class="btn-grp">
+              <button class="btn-pink btn-project">
+                <a href="https://github.com/tohidkhan2464/campus-connect">
+                  Read More
+                </a>
+              </button>
+              <a href="https://github.com/tohidkhan2464/campus-connect">
+                <Icon icon="devicon:github" class="link" />
+              </a>
+              <a href="https://campus-connect-324.vercel.app/">
+                <Icon icon="twemoji:link" class="link" />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" id="project2">
+          <div class="project-number project-number-left">02</div>
+          <div class="project-content project-content-right">
+            <div class="project-skills-container">
               <Icon icon="devicon:html5" class="project-skill" />
               <Icon icon="skill-icons:css" class="project-skill" />
               <Icon icon="skill-icons:javascript" class="project-skill" />
@@ -25,8 +57,7 @@ const Projects = () => {
             <h2 class="project-heading">StudyNotion</h2>
 
             <p class="project-sub-heading">
-              Its is a Edtech platoform where users either can sell their
-              created courses or purchase the courses for learning.
+              An Edtech platoform where users can sell or purchase the courses.
             </p>
             <div class="btn-grp">
               <button class="btn-pink btn-project">
@@ -38,38 +69,6 @@ const Projects = () => {
                 <Icon icon="devicon:github" class="link" />
               </a>
               <a href="https://studynotion-drab.vercel.app/">
-                <Icon icon="twemoji:link" class="link" />
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="project-card" id="project2">
-          <div class="project-number project-number-left">02</div>
-          <div class="project-content project-content-right">
-            <div class="project-skills-container">
-              <Icon icon="devicon:nodejs-wordmark" class="project-skill" />
-              <Icon icon="devicon:tailwindcss" class="project-skill" />
-              <Icon icon="devicon:redux" class="project-skill" />
-              <Icon icon="skill-icons:css" class="project-skill" />
-              <Icon icon="skill-icons:javascript" class="project-skill" />
-              <Icon icon="devicon:react-wordmark" class="project-skill" />
-              <Icon icon="devicon:html5" class="project-skill" />
-            </div>
-            <h2 class="project-heading">Razorpay Landing Page</h2>
-            <p class="project-sub-heading">
-              A simple razorpay landing page clone using tailwindcss.
-            </p>
-            <div class="btn-grp">
-              <button class="btn-pink btn-project">
-                <a href="https://github.com/tohidkhan2464/Razorpay_Clone">
-                  Read More
-                </a>
-              </button>
-              <a href="https://github.com/tohidkhan2464/Razorpay_Clone">
-                <Icon icon="devicon:github" class="link" />
-              </a>
-              <a href="https://razorpay-clone-henna.vercel.app/">
                 <Icon icon="twemoji:link" class="link" />
               </a>
             </div>

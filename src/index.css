@@ -496,12 +496,12 @@
     }
 
     #project1 {
-        background-image: url(./assets/Project1.png);
+        background-image: url(./assets/Project2.png);
     }
 
     #project2 {
         margin-left: 120px;
-        background-image: url(./assets/Project2.png);
+        background-image: url(./assets/Project1.png);
     }
 
     #project3 {
