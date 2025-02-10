@@ -33,7 +33,7 @@ const Header = () => {
           <div class="hero-section-heading">Hi! Tohid Khan</div>
 
           <div class="hero-section-heading hero-section-sub-heading">
-            I am a{" "}
+            <span className=" whitespace-nowrap">I am a </span>
             <TypeAnimation
               sequence={[
                 "Full Stack Developer",
@@ -63,7 +63,7 @@ const Header = () => {
           </div>
 
           <div class="btn-pink" id="btn">
-            Hire me
+            <a href="https://wa.me/916367097548">Hire me</a>
           </div>
         </div>
 

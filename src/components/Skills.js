@@ -1,27 +1,4 @@
-import {
-  SiHtml5,
-  SiCss3,
-  SiJavascript,
-  SiExpress,
-  SiTailwindcss,
-  SiNodedotjs,
-  SiMongodb,
-  SiMongoose,
-  SiRedux,
-  SiVercel,
-  SiReact,
-  SiGithub,
-  SiBootstrap,
-  SiMaterialdesign,
-  SiGit,
-  SiPython,
-  SiC,
-  SiCplusplus,
-  SiMysql,
-  SiNodemon,
-  SiAnaconda,
-  SiNpm,
-} from "react-icons/si";
+import { Icon } from "@iconify/react";
 
 const Skills = () => {
   return (
@@ -37,47 +14,58 @@ const Skills = () => {
 
         <div class="skill-subHeading">
           <p>
-            Hi Everyone My name is John Doe I am a Full Stack Web Developer I
-            have been working for last 3 Years and Currently I am working with a
-            Budding Startup in USA and a full Time Freelancer. Currently I am
-            working on NextJs and Making Beautiful UI-UX are my fey features
+            Hi Everyone My name is Tohid Khan I am a Full Stack Web Developer I
+            have been working for last Year and Currently I am working with a
+            Startup in India as Full Stack Developer and a part Time Freelancer.
           </p>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non
-            doloremque aspernatur, maiores voluptatum minus laudantium?
-            Perspiciatis accusamus minima porro dolores necessitatibus, magni
-            dolorem et qui veniam nulla sequi molestiae maxime.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quidem
-            quos ullam veritatis voluptates tenetur qui ipsa nulla culpa itaque?
+            Currently I am working on an Auction app using Flutter/Dart. In this
+            app you can place bids on the desired numbers and make them yours.
           </p>
         </div>
       </div>
 
       <div class="skill-container-right">
-        <SiHtml5 class="skills-logo" />
-        <SiCss3 class="skills-logo" />
-        <SiJavascript class="skills-logo" />
-        <SiExpress class="skills-logo" />
-        <SiTailwindcss class="skills-logo" />
-        <SiNodedotjs class="skills-logo" />
-        <SiMongodb class="skills-logo" />
-        <SiMongoose class="skills-logo" />
-        <SiRedux class="skills-logo" />
-        <SiVercel class="skills-logo" />
-        <SiReact class="skills-logo" />
-        <SiGithub class="skills-logo" />
-        <SiBootstrap class="skills-logo" />
-        <SiMaterialdesign class="skills-logo" />
-        <SiGit class="skills-logo" />
-        <SiPython class="skills-logo" />
-        <SiNpm class="skills-logo" />
-        <SiC class="skills-logo" />
-        <SiCplusplus class="skills-logo" />
-        <SiNodemon class="skills-logo" />
-        <SiMysql class="skills-logo" />
-        <SiAnaconda class="skills-logo" />
+        <Icon icon="devicon:html5" class="skills-logo blob-style" />
+        <Icon icon="skill-icons:css" class="skills-logo blob-style" />
+        <Icon icon="skill-icons:javascript" class="skills-logo blob-style" />
+        <Icon icon="devicon:express" class="skills-logo blob-style" />
+        <Icon icon="devicon:figma" class="skills-logo blob-style" />
+        <Icon icon="devicon:tailwindcss" class="skills-logo blob-style" />
+        <Icon icon="devicon:nodejs-wordmark" class="skills-logo blob-style" />
+        <Icon icon="devicon:mongodb" class="skills-logo blob-style" />
+        <Icon icon="devicon:mongoose" class="skills-logo blob-style" />
+        <Icon icon="devicon:redux" class="skills-logo blob-style" />
+        <Icon icon="devicon:vercel-wordmark" class="skills-logo blob-style" />
+        <Icon icon="devicon:php" class="skills-logo blob-style" />
+        <Icon icon="devicon:react-wordmark" class="skills-logo blob-style" />
+        <Icon icon="devicon:github" class="skills-logo blob-style" />
+        <Icon icon="skill-icons:bootstrap" class="skills-logo blob-style" />
+        <Icon icon="devicon:materialui" class="skills-logo blob-style" />
+        <Icon icon="devicon:git" class="skills-logo blob-style" />
+        <Icon
+          icon="devicon:woocommerce-wordmark"
+          class="skills-logo blob-style"
+        />
+        <Icon icon="devicon:wordpress" class="skills-logo blob-style" />
+        <Icon icon="devicon:jquery" class="skills-logo blob-style" />
+        <Icon icon="devicon:python-wordmark" class="skills-logo blob-style" />
+        <Icon icon="devicon:npm-wordmark" class="skills-logo blob-style" />
+        <Icon icon="skill-icons:c" class="skills-logo blob-style" />
+        <Icon icon="devicon:cplusplus" class="skills-logo blob-style" />
+        <Icon icon="devicon:nodemon" class="skills-logo blob-style" />
+        <Icon icon="devicon:androidstudio" class="skills-logo blob-style" />
+        <Icon icon="devicon:docker" class="skills-logo blob-style" />
+        <Icon icon="devicon:eclipse" class="skills-logo blob-style" />
+        <Icon icon="devicon:mysql-wordmark" class="skills-logo blob-style" />
+        <Icon icon="devicon:dart" class="skills-logo blob-style" />
+        <Icon icon="devicon:postman" class="skills-logo blob-style" />
+        <Icon icon="devicon:flutter" class="skills-logo blob-style" />
+        <Icon
+          icon="devicon:postgresql-wordmark"
+          class="skills-logo blob-style"
+        />
+        <Icon icon="skill-icons:anaconda-dark" class="skills-logo blob-style" />
       </div>
     </div>
   );

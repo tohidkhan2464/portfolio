@@ -1,20 +1,4 @@
-import {
-  SiHtml5,
-  SiCss3,
-  SiJavascript,
-  SiExpress,
-  SiTailwindcss,
-  SiNodedotjs,
-  SiMongodb,
-  SiMongoose,
-  SiRedux,
-  SiVercel,
-  SiReact,
-  SiGithub,
-  SiBootstrap,
-  SiNodemon,
-} from "react-icons/si";
-import { PiLinkThin } from "react-icons/pi";
+import { Icon } from "@iconify/react";
 
 const Projects = () => {
   return (
@@ -26,31 +10,35 @@ const Projects = () => {
           <div class="project-number project-number-right">01</div>
           <div class="project-content project-content-left">
             <div class="project-skills-container">
-              <SiHtml5 class="project-skill" />
-              <SiCss3 class="project-skill" />
-              <SiJavascript class="project-skill" />
-              <SiExpress class="project-skill" />
-              <SiTailwindcss class="project-skill" />
-              <SiNodedotjs class="project-skill" />
-              <SiMongodb class="project-skill" />
-              <SiRedux class="project-skill" />
-              <SiVercel class="project-skill" />
-              <SiMongoose class="project-skill" />
+              <Icon icon="devicon:html5" class="project-skill" />
+              <Icon icon="skill-icons:css" class="project-skill" />
+              <Icon icon="skill-icons:javascript" class="project-skill" />
+              <Icon icon="devicon:tailwindcss" class="project-skill" />
+              <Icon icon="devicon:figma" class="project-skill" />
+              <Icon icon="devicon:nodejs-wordmark" class="project-skill" />
+              <Icon icon="devicon:mongodb" class="project-skill" />
+              <Icon icon="devicon:redux" class="project-skill" />
+              <Icon icon="devicon:vercel" class="project-skill" />
+              <Icon icon="devicon:mongoose" class="project-skill" />
             </div>
 
-            <h2 class="project-heading">Tint & Orange</h2>
+            <h2 class="project-heading">StudyNotion</h2>
 
-            <p class="project-subHeading">
-              Its is a car modification copany which provide you sheets to
-              protect your car from scratch
+            <p class="project-sub-heading">
+              Its is a Edtech platoform where users either can sell their
+              created courses or purchase the courses for learning.
             </p>
             <div class="btn-grp">
-              <button class="btn-pink btn-project">Read More</button>
+              <button class="btn-pink btn-project">
+                <a href="https://github.com/tohidkhan2464/studynotion">
+                  Read More
+                </a>
+              </button>
               <a href="https://github.com/tohidkhan2464/studynotion">
-                <SiGithub class="link" />
+                <Icon icon="devicon:github" class="link" />
               </a>
               <a href="https://studynotion-drab.vercel.app/">
-                <PiLinkThin class="link" />
+                <Icon icon="twemoji:link" class="link" />
               </a>
             </div>
           </div>
@@ -60,25 +48,29 @@ const Projects = () => {
           <div class="project-number project-number-left">02</div>
           <div class="project-content project-content-right">
             <div class="project-skills-container">
-              <SiNodedotjs class="project-skill" />
-              <SiTailwindcss class="project-skill" />
-              <SiRedux class="project-skill" />
-              <SiCss3 class="project-skill" />
-              <SiJavascript class="project-skill" />
-              <SiReact class="project-skill" />
-              <SiHtml5 class="project-skill" />
+              <Icon icon="devicon:nodejs-wordmark" class="project-skill" />
+              <Icon icon="devicon:tailwindcss" class="project-skill" />
+              <Icon icon="devicon:redux" class="project-skill" />
+              <Icon icon="skill-icons:css" class="project-skill" />
+              <Icon icon="skill-icons:javascript" class="project-skill" />
+              <Icon icon="devicon:react-wordmark" class="project-skill" />
+              <Icon icon="devicon:html5" class="project-skill" />
             </div>
-            <h2 class="project-heading">Breaking Copyrights</h2>
+            <h2 class="project-heading">Razorpay Landing Page</h2>
             <p class="project-sub-heading">
-              A platform to download copyrights free youtube music
+              A simple razorpay landing page clone using tailwindcss.
             </p>
             <div class="btn-grp">
-              <button class="btn-pink btn-project">Read More</button>
+              <button class="btn-pink btn-project">
+                <a href="https://github.com/tohidkhan2464/Razorpay_Clone">
+                  Read More
+                </a>
+              </button>
               <a href="https://github.com/tohidkhan2464/Razorpay_Clone">
-                <SiGithub class="link" />
+                <Icon icon="devicon:github" class="link" />
               </a>
               <a href="https://razorpay-clone-henna.vercel.app/">
-                <PiLinkThin class="link" />
+                <Icon icon="twemoji:link" class="link" />
               </a>
             </div>
           </div>
@@ -88,28 +80,32 @@ const Projects = () => {
           <div class="project-number project-number-right">03</div>
           <div class="project-content project-content-left">
             <div class="project-skills-container">
-              <SiBootstrap class="project-skill" />
-              <SiNodemon class="project-skill" />
-              <SiExpress class="project-skill" />
-              <SiHtml5 class="project-skill" />
-              <SiMongoose class="project-skill" />
-              <SiMongodb class="project-skill" />
-              <SiRedux class="project-skill" />
-              <SiReact class="project-skill" />
-              <SiNodedotjs class="project-skill" />
+              <Icon icon="skill-icons:bootstrap" class="project-skill" />
+              <Icon icon="devicon:nodemon" class="project-skill" />
+              <Icon icon="devicon:express" class="project-skill" />
+              <Icon icon="devicon:html5" class="project-skill" />
+              <Icon icon="devicon:mongoose" class="project-skill" />
+              <Icon icon="devicon:mongodb" class="project-skill" />
+              <Icon icon="devicon:redux" class="project-skill" />
+              <Icon icon="devicon:react-wordmark" class="project-skill" />
+              <Icon icon="devicon:nodejs-wordmark" class="project-skill" />
             </div>
 
-            <h2 class="project-heading">Isha Tattva</h2>
+            <h2 class="project-heading">Shoppin Cart</h2>
             <p class="project-sub-heading">
-              A Website for interior designer to showcase her works and samples
+              A basic website with the shopping cart functionality.
             </p>
             <div class="btn-grp">
-              <button class="btn-pink btn-project">Read More</button>
+              <button class="btn-pink btn-project">
+                <a href="https://github.com/tohidkhan2464/shopping-cart">
+                  Read More
+                </a>
+              </button>
               <a href="https://github.com/tohidkhan2464/shopping-cart">
-                <SiGithub class="link" />
+                <Icon icon="devicon:github" class="link" />
               </a>
               <a href="https://shopping-cart-seven-blue.vercel.app/">
-                <PiLinkThin class="link" />
+                <Icon icon="twemoji:link" class="link" />
               </a>
             </div>
           </div>
@@ -119,22 +115,24 @@ const Projects = () => {
           <div class="project-number project-number-left">04</div>
           <div class="project-content project-content-right">
             <div class="project-skills-container">
-              <SiTailwindcss class="project-skill" />
-              <SiReact class="project-skill" />
-              <SiVercel class="project-skill" />
+              <Icon icon="devicon:tailwindcss" class="project-skill" />
+              <Icon icon="devicon:react-wordmark" class="project-skill" />
+              <Icon icon="skill-icons:css" class="project-skill" />
+              <Icon icon="devicon:vercel" class="project-skill" />
             </div>
-            <h2 class="project-heading">Granit</h2>
-            <p class="project-sub-heading">
-              A architectural website to plan your building or home (Hebrew
-              Language)
-            </p>
+            <h2 class="project-heading">A Blog Website</h2>
+            <p class="project-sub-heading">A simple blogging platform.</p>
             <div class="btn-grp">
-              <button class="btn-pink btn-project">Read More</button>
+              <button class="btn-pink btn-project">
+                <a href="https://github.com/tohidkhan2464/blog-website">
+                  Read More
+                </a>
+              </button>
               <a href="https://github.com/tohidkhan2464/blog-website">
-                <SiGithub class="link" />
+                <Icon icon="devicon:github" class="link" />
               </a>
               <a href="https://blog-website-inky.vercel.app/">
-                <PiLinkThin class="link" />
+                <Icon icon="twemoji:link" class="link" />
               </a>
             </div>
           </div>
