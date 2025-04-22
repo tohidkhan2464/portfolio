@@ -1,0 +1,15 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.gamestop2464.calculator",
+      "sha256_cert_fingerprints": [
+        "2C:A9:BE:2B:EE:E8:EF:CF:93:07:4E:AB:A7:7F:45:85:2B:0E:F2:12:1C:C8:2E:8C:C9:A7:95:3B:22:28:AD:BD"
+      ]
+    }
+  }
+]
